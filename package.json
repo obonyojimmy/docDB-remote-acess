@@ -1,0 +1,16 @@
+{
+  "name": "mongo-ssh-tunnel",
+  "version": "1.0.0",
+  "description": "mongo ssh tunnelwith docdb",
+  "main": "mongo-ssh-tunnel.js",
+  "scripts": {
+    "start": "node mongo-ssh-tunnel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "obonyojimmy",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.7",
+    "tunnel-ssh": "^4.1.4"
+  }
+}
